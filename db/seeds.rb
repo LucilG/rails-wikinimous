@@ -9,5 +9,6 @@
 #   end
 
 10.times do |i|
-  Article.new({ title: "title#{i}", content: "content#{i}" })
+  # create : new + save !!
+  Article.create({ title: "title#{i}", content: "content#{i}" })
 end
